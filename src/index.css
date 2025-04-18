@@ -1,1 +1,14 @@
-body { font-family: sans-serif; background: #f7f7f7; }
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+
+function App() {
+  return (
+    <div>
+      <h1>Help the Needy</h1>
+      <p>Welcome to the platform for helping those in need.</p>
+    </div>
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
